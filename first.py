@@ -5,6 +5,7 @@ def balanced(input_string):
     # Returns -1 if braces are balanced, or the 0-based index of the first
     # unbalanced brace
     openstack = list()
+    input_string = str(input_string)
 
     for idx, char in enumerate(input_string):
         if char == '{':
